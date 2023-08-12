@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+.container {
+    height: 256px; /* Set a specific height for the container */
+    width:256px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border-width: 1px;
+    border-right: none;
+    border-color: black;
+    border-style: solid; /* Add border style */
+    width: 16px; /* Add width and height to see the boxes */
+    height: 16px;
+    ; /* Add some margin for spacing */
+}
+
+
