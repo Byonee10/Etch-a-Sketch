@@ -4,7 +4,9 @@ html,body {
 body{
     display: flex;;
     justify-content: center;;
-    align-items: center;;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
 }
 
 
@@ -29,3 +31,16 @@ body{
 }
 
 
+.res-button{
+    width:50px;
+    height: 30px;
+
+}
+
+.colored{
+    background-color: black;
+}
+.btn-container{
+    display:flex;
+    gap:50px;
+}
